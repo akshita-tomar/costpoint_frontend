@@ -1,0 +1,855 @@
+.excel_header{
+    background:url("../../images//excel_bg.png") ;
+    min-height: 800px;
+    padding: 0px 31px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.excel_accounting_heading h2{
+font-weight: 600;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 48px;
+}
+.excel_accounting_heading h6{
+text-align: center;
+color: #FFFFFF;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+padding-top: 32px;
+}
+.file{
+display: flex;
+flex-direction: column;
+height: 381px;
+justify-content: center;
+background: #FFFFFF;
+margin-top: 30px;
+padding: 30px;
+box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.1);
+}
+.cloud_img{
+    width: 103px;
+    height: 70px;
+}
+.cloud_img_outer input {
+    margin: 39px 0px;
+    color: #676767;
+    text-decoration: underline;
+}
+
+.cloud_img_outer {
+    padding-top: 6rem;
+    text-align: center;
+}
+.file_heading{
+    text-align: center;
+    color: #fff;
+    padding-top: 2rem;
+    font-weight: 700;
+font-size: 32px;
+line-height: 20px;
+}
+.link_img{
+    height: 12px;
+    width: 11px;
+}
+.link_outer{
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+}
+.link_outer h2{
+ font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #676767;
+padding-left: 5px;
+padding-top: 8px;
+
+}
+.horizontal_line{
+    border: 1px solid#D9D9D9;
+    color: #D9D9D9;
+}
+.googleDrive_outer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.cmn_container{
+width: 52px;
+height: 52px;
+background: #FFFFFF;
+box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.1);
+border-radius: 30px;
+padding: 11px;
+}
+.cmn_container img{
+    height:20px ;
+    width:20px;
+}
+.googleDrive_img {
+    margin-left: 50px;
+}
+.matching_column_heading{
+ font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+padding-bottom: 60px;
+}
+.list_item .dropdown-item:hover{
+    background: #CBE9F4;
+}
+.list_item{
+    overflow: hidden;
+}
+.delete_img_outerBox {
+    margin-left: 36px;
+    position: absolute;
+    left: auto;
+    right: -53px;
+    top: 6px;
+}
+.delete_img_outerBox1 {
+    margin-left: 36px;
+    position: absolute;
+    left: auto;
+    right: -53px;
+    top: 35px;
+}
+.runBtn_outer{
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* width: calc(83% - -5px);
+    margin: auto; */
+  
+
+}
+.addMatch_btn_wrapper{
+    width: 17em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 3px solid transparent;
+}
+.display_class{
+    text-align: center;
+    padding: 60px 0px;
+    position: relative;
+}
+.dropdown_wrapper_inner {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    
+}
+.loader_outer{
+    text-align: center;
+}
+
+.clearResult_btn{
+    position: absolute;
+    left: auto;
+    right: 0px;
+    top: 60px;
+}
+.form-select:focus {
+    border-color: #2A8AE6;
+    outline:unset;
+    box-shadow: 0px;
+}
+
+
+.dropdown_wrapper_inner1 {
+    gap: 45PX;
+    top: 44px;
+    padding: 0px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.outer_MatchType{
+    position: relative;
+
+}
+
+
+/* /..................... */
+.input_field{
+    border: unset;
+    text-align: center;
+}
+.run_match_btn{
+background: #DEDEDE;
+border: 2px solid #FF5019;
+color: #676767;
+}
+.runMatch_btn_bg{
+    background: #FF5019;
+    color: #FFFFFF;
+    border: 2px solid #FF5019;
+}
+.cmn_btn{
+box-shadow: 0px 0px 7px rgba(62, 119, 158, 0.5);
+border-radius: 40px;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+width: 197px;
+height: 50px;
+}
+.clearResult_And_addNew_Btn{
+    background: #2A8AE6;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.table_data{
+    min-height: 381px;
+    background: #FFFFFF;
+    padding: 30px 40px;
+    box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+.your_file_excel_wrapper{
+    background: rgba(70, 205, 246, 0.19);
+   position: relative;
+   padding: 10px;
+   margin-top: 10px;
+}
+.your_file_excel_wrapper h2{
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #676767;
+}
+.url_input{
+    display: flex;
+}
+.url_input button{
+    background: #f3f0f0;
+    border: none;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+table, th, td {
+    border: 1px solid #676767;
+    border-collapse: collapse;
+    padding: 9px 56px;
+  }
+  .displayData{ 
+    overflow: scroll;
+    background: white;
+    padding: 4px;
+    height: 293px;
+    margin: 10px;
+  }
+  /* tr:first-child {
+    background: white;
+    position: sticky;
+    top: 0px;
+} */
+  .original_file_outer{
+    display: flex;
+    margin-top: 29px;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+  }
+  .choose_file_btn{
+    background: #FFFFFF;
+border: 1px solid #2A8AE6;
+padding: 10px 20px;
+  }
+  .file_btn{
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+padding: 10px 20px;
+
+text-decoration: none;
+  }
+  .select_sheet_heading{
+  
+  margin-bottom: 0;
+   
+  }
+  .original_file_outer select {
+    height: 40px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  .delete_img{
+    position: absolute;
+    left: auto;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .hide_element{
+    opacity: 0;
+  }
+
+  .dropdown_btn{
+    border: 3px solid #2A8AE6;
+box-shadow: 0px 0px 7px rgba(62, 119, 158, 0.5);
+border-radius: 30px;
+width:17em;
+/* padding: 0px 11px 0px; */
+
+ height: 50px;
+ font-size: 16px;
+
+color: #676767;
+font-weight: 400px;
+
+  }
+  select.dropdown_btn:focus-visible {
+  outline: unset;
+}
+.dropdown_menu{
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate(0px, 52px);
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #2A8AE6;
+    box-shadow: 0px 0px 7px rgba(62, 119, 158, 0.5);
+    border-radius: 30px;
+    width: 19%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.dropdown_items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn:hover {
+    color: unset
+}
+ .dropdown_toggle::after{
+color: #2A8AE6;
+right: 24px;
+top: 24px;
+position: absolute;
+}
+  .identity_heading{
+    font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+font-weight: 500;
+text-align: center;
+padding-top:39px;
+width: 37%;
+/* margin: auto; */
+  }
+  .content_heading{
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+ 
+
+  }
+  .checkbox_outer{
+    padding-top: 38px;
+  }
+  .checkbox{
+    height: 20px;
+    width: 20px;
+  }
+  .matched_outer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.notmatched_outer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 28px;
+}
+.resultBtn_outer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 14px;
+}
+.showExample_btn{
+   
+    background-color: #1457e9;
+}
+.exportResult_btn{
+    background-color: green;
+}
+.calculatedResult_Outer {
+    background: white;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    margin-bottom: 59px;
+}
+.record_heading{
+    color: green;
+    font-size: 25px;
+}
+.notmatch_record_heading{
+    color: red;
+    font-size: 25px;
+}
+.matched_heading{
+    font-size: 27px;
+}
+.result_outer{
+ min-height: 640px;
+left: 80px;
+top: 2239px;
+background: #c4e9fb;
+box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.1);
+border-radius: 40px;
+padding: 50px 50px 0px;
+
+}
+.cmn_ai_btn{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+border-radius: 30px;
+width: 219px;
+height: 50px;
+}
+.hide_btn {
+    background: #2A8AE6;
+border: 2px solid #FFFFFF;
+}
+.check_btn{
+    background: #FF5019;
+border: 2px solid #FF5019;
+box-shadow: 0px 0px 7px rgba(62, 119, 158, 0.5);
+margin-left: 60px;
+
+}
+.results_heading{
+    font-weight: 500;
+font-size: 32px;
+line-height: 20px;
+color: #fff;
+text-align: center;
+padding: 4rem 0px 27px;
+}
+.field_btn{
+ background-color: #FFFFFF;
+border: 2px solid #D9D9D9;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+width: 175px;
+height: 46px;
+margin-left: 40px;
+}
+.matched_field_btn{
+    color: #2A8AE6;
+}
+.mismatched_field_btn{
+    color: #FF5019;
+   
+}
+.filter_heading{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #676767;
+    padding-left: 4rem;
+
+}
+.filter_outer{
+    display: flex;;
+    align-items: center;
+    padding-top: 26px;
+}
+.result_container{
+    background: linear-gradient(90deg, #50E8FD 0%, #2986E6 100%);
+    padding: 0px 31px;
+}
+.export_result_btn{
+background: #FF5019;
+border: 2px solid #FF5019;
+box-shadow: 0px 0px 7px rgba(62, 119, 158, 0.5);
+border-radius: 30px;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+width: 219px;
+height: 50px;
+padding: 13px;
+}
+.export_result_btn_outer{
+    justify-content:center;
+    padding-top: 54px;
+    display: flex;
+
+}
+.result_wrapper {
+    padding-bottom: 6rem;
+}
+.matched-row{
+    background: #bfdcf7;
+  }
+  .first-row {
+    background-color: white; /* or any other styling you want */
+  }
+  .unmatched-row{
+    background: #fccbba;
+    
+  }
+  .identity_heading_outer{
+    display: flex;
+    justify-content: center;
+  }
+  .cmn_display{
+    display: flex;
+  }
+/* sequanrial match css */
+.select_type_match_outer{
+    background-color: #CBE9F4;
+    box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    min-height: 400px;
+    padding: 30px;
+    margin: auto;
+}
+.type_matching_heading{
+    text-align: center;
+    font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+color: #676767;
+padding-top: 2rem;
+}
+.type_match_innerContnt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sequential_match_wrapper{
+    padding: 20px;
+}
+.type_match_innerContnt label{
+ padding-left: 20px;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #676767;
+min-width: 174px;
+max-width: 100%;
+}
+.expected_heading{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #676767; 
+    padding-left: 20px;
+}
+.expectedMatch_btn{
+    background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 40px;
+width: 60.04px;
+height: 35px;
+}
+.expected_container{
+    display: flex;
+    align-items: center;
+}
+/* media query for 1024px width screen */
+@media screen and (max-width:1024px){
+    
+    .displayData{
+        margin: 10px;
+    }
+    .dropdown_btn{
+        width: 100%;
+        min-width: 0px;
+    }
+    .dropdown_wrapper_inner .dropdown{
+        width:100%;
+    }
+    .matching_column_heading {
+        padding-top: 20px;
+    }
+    .dropdown_items {
+        gap: 36px;
+     
+    }
+    .cmn_btn{
+        width: 197px;
+    height: 50px;
+    }
+    /* .runBtn_outer{
+        width: calc(93% - 60px);
+    } */
+}
+/* mediaquery for tablet screen  screen  */
+@media screen and (max-width:991px){
+.excel_accounting_heading h2{
+    font-size: 24px;
+}
+.dropdown_items {
+    gap: 26px;
+}
+ .display_class{
+        display: flex;
+    }
+.type_matching_heading{
+    padding-top: 2rem;
+}
+.table_data {
+    margin-top: 20px;
+}
+.sequential_match_wrapper {
+    padding: 11px;
+    width: 100%;
+    display: flex;
+}
+
+.select_type_match_outer{
+    padding: 14px;
+    min-height: 359px;
+}
+.matching_column_heading {
+    padding-top: 20px;
+}
+.identity_heading{
+    width: 100%;
+    margin: unset;
+}
+.dropdown_wrapper_inner .dropdown{
+    margin-top: 20px;
+}
+.dropdown_wrapper_inner .dropdown {
+    min-width: 197px;
+}
+.runBtn_outer{
+    padding-right: 0px;
+    width: 100%;
+    margin: unset;
+    text-align: center;
+    display: flex;
+     padding: 31px 0px;
+}
+.dropdown_btn {
+    padding: 0px 4px 0px;
+    font-size: 12px;
+}
+.cmn_btn{
+    font-size: 16px;
+    margin-top: 14px;
+}
+.cmn_result_btn {
+    height: 46px;
+    width: 190px;
+    font-size: 16px;
+}
+.matched_heading {
+    font-size: 20px;
+}
+.notmatch_record_heading {
+    font-size: 22px;
+}
+.record_heading {
+    font-size: 22px;
+}
+.excel_accounting_heading h6{
+    font-size: 16px;
+}
+.delete_img_outerBox{
+    margin-top: 17px;
+}
+.cmn_display {
+    display: block;
+    padding: 0px;
+}
+.export_result_btn_outer{
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+.addMatch_btn_wrapper{
+    width: unset;
+}
+}
+  /* media query starts here */
+  @media screen and (max-width:767px)
+  {
+    .excel_accounting_heading h2 {
+        padding-top: 45px;
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .results_heading {
+        font-size: 24px;
+        padding: 18px;
+    }
+    .identity_heading_outer h5{
+        font-size: 14px;
+    }
+    .identity_heading_outer label {
+      font-size: 14px;
+    }
+    .excel_header{
+        padding: 0px 8px;
+    }
+    .dropdown_btn {
+        height: 40px;
+    }
+    .dropdown_wrapper_inner .dropdown {
+        min-width: 100%;
+    }
+    table.table_div tr, td {
+        font-size: 13px;
+    }
+    .your_file_excel_wrapper h2 {
+        font-size: 14px;
+    }
+    .display_class{
+        display: block;
+    }
+    .clearResult_btn {
+        position: unset;
+    }
+    table,th,td{
+        padding: 5px 16px;
+    }
+    .matching_column_heading {
+        padding-top: 20px;
+    }
+    .cmn_btn{
+        width: 166px;
+        height: 43px;
+        font-size: 14px;
+    }
+    .addMatch_btn_wrapper {
+        width: 100%;
+    }
+    
+    .dropdown_items{
+       
+        display: block;
+    }
+    .excel_accounting_heading h6 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .cloud_img_outer {
+        padding-top: 0px
+        ;
+    }
+    .px-4 {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .file_heading{
+        font-size: 20px;
+    }
+    .table_data{
+        padding: 30px 10px;
+    }
+    .select_sheet_heading {
+        position: unset;
+    }
+    .original_file_outer {
+        text-align: center;
+        display: block;
+    }
+    .dropdown_wrapper_inner{
+        display: block;
+    }
+    .result_outer{
+        padding: 50px 32px 0px;
+    }
+    .check_btn{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+  .mismatched_field_btn {
+        margin-top: 10px;
+    }
+    .filter_outer{
+        display: block;
+    }
+    .filter_heading {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .field_btn{
+        margin-left: 0px;
+    }
+    .resultBtn_outer {
+        text-align: center;
+        display: block;
+    }
+    
+    .exportResult_btn {
+        margin-top: 20px;
+    }
+    .record_heading {
+        font-size: 16px;
+    }
+    .notmatch_record_heading {
+        font-size: 16px;
+    }
+    .matched_heading {
+        font-size: 16px;
+    }
+    .cmn_ai_btn{
+        width: 184px;
+        height: 44px;
+        font-size: 16px;
+    
+    }
+    .hideResult_btn_container{
+        text-align: center;
+    }
+    .export_result_btn{
+    width: 175px;
+    height: 43px;
+    font-size: 16px;
+    margin-top: 10px;
+    }
+    .runBtn_outer{
+        display: block;
+    }
+    .type_matching_heading{
+        font-size: 15px;
+    }
+    .expected_heading {
+        font-size: 14px;
+    }
+    .type_match_innerContnt label{
+        font-size: 14px;
+    }
+  }
+
+ 

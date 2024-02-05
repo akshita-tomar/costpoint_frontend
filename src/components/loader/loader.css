@@ -1,0 +1,61 @@
+:root {
+  --main-color: #111;
+  --loader-color: #4CAF50;
+  --back-color: #A5D6A7;
+  --time: 1s;
+  --size: 3px;
+}
+
+.processing_loader {
+	background-color: #00000099;
+	overflow: hidden;
+  filter: blur(1px);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0; left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center; 
+  justify-content: flex-start;  
+	z-index: 99999;
+}
+
+.downloader_outer h2{
+  font-size: 23px;
+    padding-top: 12px;
+}
+.downloader_outer{
+  background-color: unset;
+  display: flex;
+    justify-content: center;
+}
+.loader__element {
+  margin: auto;
+  max-width: 41%;
+  width: 100%;
+ 
+  height: 17px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.fileLoader img{
+  object-fit: contain;
+}
+
+
+
+/* .loader__element:before {
+	content: '';
+	display: block;
+	background-color: var(--loader-color);
+	height: 17px;
+	width: 0;
+  animation: getWidth var(--time) ease-in infinite;
+}
+
+@keyframes getWidth {
+	100% { width: 100%; }
+} */

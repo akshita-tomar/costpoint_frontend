@@ -1,0 +1,82 @@
+.navbar_header{
+    align-items: center;
+}
+.excel_logo{
+    Width:
+30.25px;
+Height:
+28.59px
+}
+.main_navBar{
+justify-content: space-around;
+}
+.navbar_mainHeader{
+    padding: 10px 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #ffffff;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+}
+.excel_logo{
+    height: 28px;
+    width: 28px;
+}
+
+.bg-light {
+    background: #272727!important;
+}
+.costpoint_heading{
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.user_icon {
+    padding-left: 23px;
+}
+.navbar_header li:nth-child(2){
+    padding: 0px 50px
+}
+.flag_outer{
+    display: flex;
+    align-items: center;
+
+}
+.dropdown-menu.show {
+    left: auto;
+    right: 0;
+}
+.user_info button {
+    background: transparent;
+    border: transparent;
+}
+@media screen and (max-width:767px){
+    .navbar_header {
+        align-items: unset;
+        
+    }
+    .navbar_header li:nth-child(2) {
+        padding: 0px ;
+    }
+}
+@media screen and (max-width:991px){
+    .navbar_header {
+        align-items: unset;
+        
+    }
+    .navbar_header li:nth-child(2) {
+        padding: 0px ;
+    }
+    .dropdown-menu.show {
+        left: 0;
+        right: 0;
+    }
+}
